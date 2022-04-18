@@ -1,0 +1,51 @@
+
+
+.container>*{
+    /*padding: 0.5rem;*/
+    border-radius: 4px;
+    /*background-color: rgb(233, 171, 88, .5);*/
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    /*max-width: 70%;*/
+   
+    background-color: #0878e7;
+}
+.one{
+    border: 2px solid #7541c8;
+    grid-column: 1 / span 2;
+    
+    background-color: #7541c8;
+
+}
+
+
+.two{
+    background-color: #48556a;
+    grid-column: 3;
+    grid-row: 1 / span 1;
+    
+}
+    
+    
+
+.three{
+    background-color: #ffffff;
+    border: 2px solid #19212e;
+    
+}
+
+.four{
+    background-color: #19212e;
+    color: #ffffff;
+    grid-column: 2 / span 2;
+}
+.five{
+    background-color: #ffffff;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    border: 2px solid #19212e;
+}
+
